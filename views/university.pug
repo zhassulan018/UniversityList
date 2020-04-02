@@ -1,0 +1,29 @@
+extends base
+
+block content
+    section
+        .row
+            .background
+                img(src=`/img/university/${university.imageCover}` alt='')
+                div
+                    h1= university.name
+                    i.icon.ion-md-pin= university.fullLocation
+    section.quick-fact.clearfix.row
+        .col.span-1-of-2
+            h2 Quick Facts
+            i.icon.ion-md-pin=  university.fullLocation
+            i.icon.ion-md-people= `Approx. ${university.students} students`
+            i.icon.ion-md-calendar=  university.build
+            i.icon.ion-md-school=  `Approx. ${university.graduates} undergraduates`
+        .col.span-1-of-2
+            h2 Lorem
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus nobis totam tempora odit maiores eos amet qui sint. Deleniti quia id doloremque iusto molestias debitis iste odio eligendi aliquam asperiores.
+                br
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro assumenda, voluptatum nobis accusantium cum possimus voluptate quaerat error autem ipsum iure excepturi, dignissimos tempora officiis accusamus esse quos blanditiis nesciunt voluptas rerum iusto perferendis non inventore? Fugit consectetur dolorum impedit?
+    section.photos.clearfix
+        ul.university-column-photos
+            each img in university.images
+                li
+                    figure.university-photo
+                        img(src=`/img/university/${img}`)
+            

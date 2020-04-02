@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Nazarbayev University",
+    "city": "Astana",
+    "country": "Kazakhstan",
+    "fact": "One of the pretigous university in country",
+    "build": "Sept.2010",
+    "students": 4000,
+    "graduates": 3000,
+    "description": "Nazarbayev University (NU) is an autonomous research university in Nur-Sultan, the capital of Kazakhstan. Founded as a result of the initiative of the first President of Kazakhstan, Nursultan Nazarbayev in 2010,[1] it is an English-medium institution, with an international faculty and staff. The acceptance rate for undergraduate programs is 1:8.5. All undergraduate students attend free of charge, and students in good standing receive a stipend. The faculty-to-student class ratio is 1:9",
+    "imageCover": "university-1-cover.jpg",
+    "images": ["university-1-1.jpg", "university-1-2.jpg", "university-1-3.jpg"]
+  },
+  {
+    "name": "Suleimen Demirel University",
+    "city": "Almaty",
+    "country": "Kazakhstan",
+    "fact": "The best universityin IT shpere in KZ",
+    "build": "Dec.1996",
+    "students": 10000,
+    "graduates": 25000,
+    "description": "SDU is committed to developing, through outstanding knowledge creation and delivery, graduates who are global citizens and whose values are formed through holistic education. These skilled professionals and disseminators of knowledge and innovation will enhance the lives of fellow citizens, the economy, and the nation.",
+    "imageCover": "university-2-cover.jpg",
+    "images": ["university-2-1.jpg", "university-2-2.jpg", "university-2-3.jpg"]
+  },
+  {
+    "name": "Eurasian National University",
+    "city": "Astana",
+    "country": "Kazakhstan",
+    "fact": "One of the universities first created in country",
+    "build": "May.1996",
+    "students": 20000,
+    "graduates": 40000,
+    "description": "ENU includes 28 scientific institutions (research institutes, laboratories, centers), 13 schools, the Military Department, and cultural and educational centers of different countries. The system of specialist training at the university is conducted on 3 levels of education: basic higher education (Bachelor's programme, the Master's programme and Ph.D. doctorate).Admission to ENU is carried out on the basis of state educational grants and on a contractual basis. The university offers 65 Bachelor's programs, 68 Master's programs and 38 PhD programs.",
+    "imageCover": "university-3-cover.jpg",
+    "images": ["university-3-1.jpg", "university-3-2.jpg", "university-3-3.jpg"]
+  },
+  {
+    "name": "KBTU",
+    "city": "Alamty",
+    "country": "Kazakhstan",
+    "fact": "Leading university in shpere GAS and II",
+    "build": "Sept.2001",
+    "students": 8000,
+    "graduates": 30000,
+    "description": "KBTU’s research is focused in the main sectors of the Kazakhstani economy – oil and gas, information technologies, banking and finance, and telecommunications.KBTU is the first and only Kazakhstani university with internationally accredited IT programs by the U.S. agency, the Accreditation Board for Engineering and Technology (ABET). It is also the first and only Kazakhstani university to receive an international accreditation for its Oil and Gas programs in the UK by the Institution of Marine Engineering, Science and Technology (IMarEST), UK .",
+    "imageCover": "university-4-cover.jpg",
+    "images": ["university-4-1.jpg", "university-4-2.jpg", "university-4-3.jpg"]
+  }
+]

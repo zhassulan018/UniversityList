@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f7f7f7;
+  color: black;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+/* Header */
+
+.background {
+  position: relative;
+  text-align: center;
+  background-color: black;
+}
+.background img {
+  opacity: 0.7;
+  width: 100%;
+  height: 500px;
+}
+
+.background div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f7f7f7;
+}
+.background h1 {
+  margin-bottom: 30px;
+}
+
+header {
+  background-color: #444;
+  z-index: 9999;
+}
+header li {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+header li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-right: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+.left-nav {
+  float: right;
+}
+
+/* Main */
+
+main {
+  margin: 70px auto;
+}
+
+.card {
+  max-width: 30%;
+  height: 500px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card img {
+  width: 100%;
+  height: 300px;
+}
+.bottom {
+  list-style-type: circle;
+  padding: 0 10px;
+}
+.bottom p {
+  font-style: italic;
+  font-size: 80%;
+  margin: 10px 0;
+}
+
+.bottom .list-facts {
+  width: 100%;
+  font-size: 70%;
+}
+.btn {
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.btn {
+  float: right;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+.list-facts i {
+  display: inline-block;
+  margin: 5px 0;
+}
+.container {
+  text-align: center;
+  text-decoration: underline;
+  background-color: whitesmoke;
+}
+
+.quick-fact {
+  text-align: center;
+}
+.quick-fact h2 {
+  margin-bottom: 25px;
+}
+.quick-fact i {
+  margin: 4px;
+  display: block;
+}
+.photos {
+  margin: 40px auto;
+}
+.university-column-photos li {
+  display: block;
+  float: left;
+  width: 33.3%;
+}
+
+.university-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.university-photo img {
+  width: 100%;
+  height: 400px;
+}
+
+/* Footer */
+footer {
+  background-color: #444;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  margin-left: 30px;
+}
+
+footer p {
+  float: right;
+  margin-bottom: 20px;
+}

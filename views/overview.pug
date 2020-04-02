@@ -1,0 +1,21 @@
+extends base
+
+block content
+    main
+        .row
+            each university in universities
+                .col.span-1-of-3.card
+                    .upper
+                        img(src=`/img/university/${university.imageCover}`, alt=`${university.name}`)
+                        .container= university.name
+                    .bottom
+                        p= university.fact
+                        .list-facts
+                            .col.span-1-of-2
+                                i.icon.ion-md-pin= university.fullLocation
+                                i.icon.ion-md-people= `Approx. ${university.students} students`
+                            .col.span-1-of-2
+                                i.icon.ion-md-calendar= university.build
+                                i.icon.ion-md-school= `Approx. ${university.graduates} undergraduates`
+                        div
+                            a.btn(href=`/university/${university.slug}`) Details
